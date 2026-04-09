@@ -36,5 +36,8 @@ Phone: +91 9307100772
 1. Download the project
 2. Open index.html in browser
 
+## Live Portfolio
+https://parkalerb.github.io/portfolio
+
 ## Author
 Rohan Parkale
