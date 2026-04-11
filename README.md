@@ -39,5 +39,8 @@ Phone: +91 9307100772
 ## Live Portfolio
 https://parkalerb.github.io/portfolio
 
+## LinkedIn 
+https://www.linkedin.com/in/rohan-parkale
+
 ## Author
 Rohan Parkale
