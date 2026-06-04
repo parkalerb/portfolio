@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // Typed text effect
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Web Designer', '3D Graphics Designer'],
+    strings: ['Full Stack Developer', 'Web Designer', 'Java Developer'],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 1000,
