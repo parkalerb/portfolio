@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta name="description" content="Rohan Parkale | Software Developer Portfolio">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
@@ -19,6 +18,7 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a href="#services">Learning</a>
             <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
@@ -27,22 +27,31 @@
 
     <!-- Home Section Design -->
     <section class="home" id="home">
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+        <div class="hero-grid"></div>
+
         <div class="home-content">
-            <h3>Hi, Myself</h3>
+            <p class="eyebrow">Software Developer • Learner • Builder</p>
+            <h3>Hi, I'm</h3>
             <h1>Rohan Parkale</h1>
             <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>I'm a passionate developer blending creativity with code to build impactful digital experiences. Explore my projects, skills, and journey in the world of tech and innovation.</p>
+            <p>I build practical web and AI-focused solutions with a strong interest in problem-solving, clean design, and real-world impact. I’m currently growing through hands-on projects and continuous learning.</p>
             <div class="social-media">
                 <a href="https://www.linkedin.com/in/rohan-parkale-35185524a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/parkalerb" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.instagram.com/rohyaaa_33/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <!-- <a href="https://twitter.com/jena_ayeshkant" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> -->
             </div>
-            <a href="My_Resume.pdf" class="btn" download="Rohan_Parkale">Download CV</a>
+            <div class="home-buttons">
+                <a href="My_resume.pdf" class="btn" download="Rohan_Parkale_Resume">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Let's Connect</a>
+            </div>
         </div>
 
         <div class="home-img">
-            <img src="Mypic.webp" alt="">
+            <div class="image-shell">
+                <img src="Mypic.webp" alt="Rohan Parkale portrait">
+            </div>
         </div>
     </section>
 
@@ -54,107 +63,149 @@
 
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Developer</h3>
-            <p>I'm Rohan Parkale, a tech enthusiast with a strong passion for building innovative digital solutions. With experience in web development, AI-driven projects, and user-centric designs, I enjoy turning ideas into real-world applications. Currently pursuing my post graduattion in MCA, I’m steadily working upon transitioning myself from a student into a full-time software development role. From hackathons to hands-on projects, I constantly seek to learn, grow, and contribute meaningfully to the tech community.</p>
-            <a href="#" class="btn">Read More</a>
+            <h3>Developer & Learner</h3>
+            <p>I’m Rohan Parkale, a developer who enjoys creating meaningful digital experiences through code, design thinking, and continuous learning. I’m currently building stronger foundations in Python, web development, AI/ML, and problem-solving while working on practical projects that reflect real-world applications.</p>
+            <a href="#skills" class="btn">Explore Skills</a>
         </div>
         
     </section>
 
+        <section class="highlights" id="highlights">
+            <h2 class="heading">Why <span>Hire Me?</span></h2>
+
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Problem Solver</h3>
+                    <p>I enjoy turning ideas into practical solutions with clean code and thoughtful UI.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3>Fast Learner</h3>
+                    <p>I’m constantly improving in Python, web development, AI/ML, and modern tools.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h3>Hands-on Builder</h3>
+                    <p>My projects focus on real-world use cases and measurable impact rather than just theory.</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Team-Oriented</h3>
+                    <p>I work well with others, communicate clearly, and stay adaptable in fast-moving environments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-project" id="featured">
+            <div class="featured-card">
+                <div class="featured-content">
+                    <p class="featured-label">Featured Project</p>
+                    <h3>Smart Traffic Management System</h3>
+                    <p>A practical AI-driven concept focused on reducing congestion through intelligent monitoring, computer vision, and smarter decision-making.</p>
+                    <ul>
+                        <li>Computer Vision</li>
+                        <li>Machine Learning</li>
+                        <li>Real-Time Analytics</li>
+                    </ul>
+                    <div class="featured-actions">
+                        <a href="https://github.com/parkalerb/smart_trafic_management_system" target="_blank" class="btn">View Project</a>
+                        <a href="#portfolio" class="btn btn-outline">See More Projects</a>
+                    </div>
+                </div>
+                <div class="featured-visual">
+                    <div class="visual-pill">AI + Vision</div>
+                    <div class="visual-pill">Python</div>
+                    <div class="visual-pill">ML Models</div>
+                    <div class="visual-pill">Smart Systems</div>
+                </div>
+            </div>
+        </section>
+
         <!-- Services Section Design -->
         <section class="services" id="services">
-            <h2 class="heading">My <span>Learning</span></h2>
+            <h2 class="heading">Learning & <span>Growth</span></h2>
 
             <div class="services-container">
                 <div class="services-box">
                     <i class="fa-solid fa-code"></i>
                     <h3>Python Learning</h3>
-                    <p>This section documents my day-by-day progress as I build a strong foundation in Python, Data Structures & Algorithms (DSA), and Artificial Intelligence/Machine Learning (AI/ML).
-
-The goal of this section is to develop industry-ready skills through consistent daily practice, mini projects, and hands-on problem solving.. </p>
-                    <a href="https://github.com/parkalerb/python-learning" target="_blank" class="btn">Read More</a>
+                    <p>I’m building a strong base in Python, DSA, and problem-solving through daily practice and small but meaningful projects.</p>
+                    <a href="https://github.com/parkalerb/python-learning" target="_blank" class="btn">View Repo</a>
                 </div>
 
                 <div class="services-box">
                     <i class="fa-solid fa-palette"></i>
                     <h3>Technical Improvement</h3>
-                    <p>This Section documents my journey of learning and solving Data Structures and Algorithms problems using Python. The primary goal is to strengthen problem-solving skills, improve coding efficiency, and prepare for technical interviews at top product-based and service-based companies..</p>
-                    <a href="https://github.com/parkalerb/DSA-Python" target="_blank" class="btn">Read More</a>
+                    <p>My focus is on improving coding logic, interview readiness, and efficient implementation across common programming challenges.</p>
+                    <a href="https://github.com/parkalerb/DSA-Python" target="_blank" class="btn">View Repo</a>
                 </div>
 
                 <div class="services-box">
                     <i class="fa-brands fa-android"></i>
-                    <h3>AIML</h3>
-                    <p>With increasing technology and smartphone usage app development had been a booming need now-a-days. Whether it's for your personal use or commercial use, you can get your mobile application created by me.</p>
-                    <a href="https://github.com/parkalerb/AIML" target="_blank" class="btn">Read More</a>
+                    <h3>AI/ML Exploration</h3>
+                    <p>I’m exploring the practical side of machine learning, data-driven thinking, and AI-backed applications.</p>
+                    <a href="https://github.com/parkalerb/AIML" target="_blank" class="btn">View Repo</a>
                 </div>
             </div>
         </section>
 
         <!-- Portfolio Section Design -->
         <section class="portfolio" id="portfolio">
-            <h2 class="heading">Latest <span>Projects</span></h2>
+            <h2 class="heading">Selected <span>Projects</span></h2>
 
             <div class="portfolio-container">
                 <div class="portfolio-box">
-                    <img src="car.webp" alt="">
+                    <img src="car.webp" alt="Car Price Predictor project preview">
                     <div class="portfolio-layer">
-                        <h4>Project Car price car_price_predictor</h4>
-                        <p>A machine learning based price prediction project. </p>
-                        <div style="display: flex;">
-                            <a href="https://github.com/parkalerb/car_price_predictor"><i class="fa-brands fa-github"></i></a>
-                            <span style="height: 100%; width: 15px;"></span>
-                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>   
-                        </div>
-                    </div>
-                </div>
-
-               <div class="portfolio-box">
-                    <img src="Project_image.png" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Project Smart Traffic Management System</h4>
-                        <p>A smart traffic management system using computer vision and machine learning.</p>
-                        <div style="display: flex;">
-                            <a href="https://github.com/parkalerb/smart_trafic_management_system"><i class="fa-brands fa-github"></i></a>
-                            <span style="height: 100%; width: 15px;"></span>
-                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>   
-                        </div>
+                        <h4>Car Price Predictor</h4>
+                        <p>A machine learning project for predicting vehicle prices using data-driven modeling.</p>
+                        <a href="https://github.com/parkalerb/car_price_predictor" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
 
                 <div class="portfolio-box">
-                    <img src="3.jpg" alt="">
+                    <img src="Project_image.png" alt="Traffic Management System project preview">
                     <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
-                </div>
-                
-                <div class="portfolio-box">
-                    <img src="4.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
+                        <h4>Smart Traffic System</h4>
+                        <p>A smart traffic management concept using computer vision and intelligent analysis.</p>
+                        <a href="https://github.com/parkalerb/smart_trafic_management_system" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
 
                 <div class="portfolio-box">
-                    <img src="5.jpg" alt="">
+                    <img src="1.jpg" alt="Portfolio website preview">
                     <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
+                        <h4>Personal Portfolio</h4>
+                        <p>A polished personal website designed to present my profile, projects, and experience clearly.</p>
+                        <a href="https://github.com/parkalerb/Portfolio-main" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
 
                 <div class="portfolio-box">
-                    <img src="6.jpg" alt="">
+                    <img src="2.jpg" alt="Python learning repo preview">
                     <div class="portfolio-layer">
-                        <h4>Web Design</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
+                        <h4>Python Learning Repo</h4>
+                        <p>A structured learning repository for Python, DSA, and coding practice.</p>
+                        <a href="https://github.com/parkalerb/python-learning" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="3.jpg" alt="DSA practice preview">
+                    <div class="portfolio-layer">
+                        <h4>DSA Practice</h4>
+                        <p>My hands-on practice space for strengthening algorithmic thinking and coding patterns.</p>
+                        <a href="https://github.com/parkalerb/DSA-Python" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="4.jpg" alt="AI/ML project preview">
+                    <div class="portfolio-layer">
+                        <h4>AI/ML Projects</h4>
+                        <p>Exploratory work focused on model building, experimentation, and practical AI learning.</p>
+                        <a href="https://github.com/parkalerb/AIML" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -166,10 +217,19 @@ The goal of this section is to develop industry-ready skills through consistent 
 
             <div class="skills-container">
                 <div class="skills-box">
-
-                    <h2>Tech skills</h2>
+                    <h2>Tech Skills</h2>
+                    <div class="stack-tags">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Git/GitHub</span>
+                        <span>Figma</span>
+                    </div>
                     <div class="skill-bar" data-percent="70">
-                    <span class="skill-label">React</span>
+                        <span class="skill-label">React</span>
                         <div class="bar">
                             <div class="fill"></div>
                             <div class="tooltip">70%</div>
@@ -177,7 +237,7 @@ The goal of this section is to develop industry-ready skills through consistent 
                     </div>
 
                     <div class="skill-bar" data-percent="75">
-                    <span class="skill-label">Javascript</span>
+                        <span class="skill-label">JavaScript</span>
                         <div class="bar">
                             <div class="fill"></div>
                             <div class="tooltip">75%</div>
@@ -185,7 +245,7 @@ The goal of this section is to develop industry-ready skills through consistent 
                     </div>
 
                     <div class="skill-bar" data-percent="65">
-                    <span class="skill-label">Node.js</span>
+                        <span class="skill-label">Node.js</span>
                         <div class="bar">
                             <div class="fill"></div>
                             <div class="tooltip">65%</div>
@@ -193,7 +253,7 @@ The goal of this section is to develop industry-ready skills through consistent 
                     </div>
 
                     <div class="skill-bar" data-percent="70">
-                    <span class="skill-label">Python</span>
+                        <span class="skill-label">Python</span>
                         <div class="bar">
                             <div class="fill"></div>
                             <div class="tooltip">70%</div>
@@ -201,7 +261,7 @@ The goal of this section is to develop industry-ready skills through consistent 
                     </div>
 
                     <div class="skill-bar" data-percent="80">
-                    <span class="skill-label">MongoDB</span>
+                        <span class="skill-label">MongoDB</span>
                         <div class="bar">
                             <div class="fill"></div>
                             <div class="tooltip">80%</div>
@@ -209,25 +269,23 @@ The goal of this section is to develop industry-ready skills through consistent 
                     </div>
 
                     <div class="skill-bar" data-percent="60">
-                    <span class="skill-label">Firebase</span>
+                        <span class="skill-label">Firebase</span>
                         <div class="bar">
                             <div class="fill"></div>
                             <div class="tooltip">60%</div>
                         </div>
                     </div>
-
                 </div>
                 <div class="skills-box">
-
-                    <h2>Other Skills</h2>
-                        <ul>
-                            <li><span><b>Problem-Solving</b></span>  Logical approach to challenges and bugs</li>
-                            <li><span><b>Collaboration</b></span>  Works well in teams and peer programming</li>
-                            <li><span><b>Design Sense</b></span>  Basic UI/UX understanding using Figma, Canva 🎨</li>
-                            <li><span><b>API Handling</b></span>  Confident with Postman for testing/debugging</li>
-                            <li><span><b>Version Control</b></span>  Git & GitHub for efficient code management</li>
-                            <li><span><b>Adaptability</b></span>  Quick to learn and flexible in dynamic environments ⚡</li>
-                        </ul>
+                    <h2>Other Strengths</h2>
+                    <ul>
+                        <li><span><b>Problem-Solving</b></span> Logical approach to challenges and bugs</li>
+                        <li><span><b>Collaboration</b></span> Works well in teams and peer programming</li>
+                        <li><span><b>Design Sense</b></span> Basic UI/UX understanding using Figma and Canva</li>
+                        <li><span><b>API Handling</b></span> Comfortable using Postman for testing and debugging</li>
+                        <li><span><b>Version Control</b></span> Git & GitHub for efficient code management</li>
+                        <li><span><b>Adaptability</b></span> Quick to learn and flexible in dynamic environments</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -279,15 +337,15 @@ The goal of this section is to develop industry-ready skills through consistent 
             <form id="portfolioForm" action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="9bb04509-344b-450c-95a7-aa135149a115">
                 <div class="input-box">
-                    <input type="text" name="name" placeholder="Full Name">
-                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
                 </div>
 
                 <div class="input-box">
                     <input type="text" name="contact" placeholder="Mobile Number">
-                    <input type="text" name="message" placeholder="Email Subject">
+                    <input type="text" name="subject" placeholder="Email Subject">
                 </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn" id="button">
             </form>
         </section>

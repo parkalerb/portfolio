@@ -80,3 +80,4 @@ document.querySelectorAll('.skill-bar').forEach(bar => {
   const percent = bar.getAttribute('data-percent');
   bar.querySelector('.fill').style.width = `${percent}%`;
 });
+
